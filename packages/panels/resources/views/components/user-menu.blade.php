@@ -84,7 +84,7 @@
             </x-filament::dropdown.list.item>
         @endforeach
 
-        <x-filament-panels::logout-item :item="$logoutItem" />
+        <x-filament-panels::logout-item :logout-item="$logoutItem" />
     </x-filament::dropdown.list>
 </x-filament::dropdown>
 
