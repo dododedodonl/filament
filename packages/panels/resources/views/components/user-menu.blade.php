@@ -90,6 +90,7 @@
             :icon="$logoutItem?->getIcon() ?? \Filament\Support\Facades\FilamentIcon::resolve('panels::user-menu.logout-button') ?? 'heroicon-m-arrow-left-on-rectangle'"
             method="post"
             tag="form"
+            class="fi-user-menu-logout-form"
         >
             {{ $logoutItem?->getLabel() ?? __('filament-panels::layout.actions.logout.label') }}
         </x-filament::dropdown.list.item>
